@@ -1,0 +1,97 @@
+h1 {
+    margin-left: 25%;
+}
+body {
+    background-color: aquamarine;
+}
+.nav {
+    list-style-type: none;
+    background-color: orange;
+    font-size: 20px;
+    font-weight: 700px;
+    width: 100px;
+    padding: 10px;
+    border: 5px solid red;
+    color: white;
+    border-radius: 10px;
+    margin: 20px;
+
+}
+.nav:hover {
+    background-color: red;
+    border: 5px solid orange;
+    cursor: pointer;
+    width: 200px;
+    transition: all 0.5s;
+}
+.car {
+    width: 200px;
+    height: 200px;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.container {
+    background-color: aqua;
+    border: 5px solid red;
+    border-radius: 10px;
+    padding: 5px;
+    width: 1850px;
+    height: 650px;
+    display: flex;
+}
+.box1-1 {
+  background-color: aqua;
+  float: left;
+  width: 600px;
+  height: 650px;
+  font-size: 22.8px;
+}
+.box1-2 {
+    background-color: aqua;
+    float: left;
+    width: 600px;
+    height: 650px;
+    font-size: 21.5px;
+}
+.box1-3 {
+    background-color: aqua;
+    float: left;
+    width: 600px;
+    height: 650px;
+    font-size: 17px;
+}
+.box2 {
+    background-color: aqua;
+    width: 750px;
+    height: 650px;
+}
+.box3 {
+    background-color: aqua;
+    float: right;
+    width: 450px;
+    height: 650px;
+    margin-left: 20px;
+}
+.img1 {
+    width: 750px;
+    height: 650px;
+}
+p {
+    font-family: "Roboto";
+}
+button {
+    background-color: orange;
+    text-align: center;
+}
+ol {
+    display: flex;
+    justify-content: space-around;
+}
+.center {
+    text-align: center;
+}
+.body1 {
+    background-image: url('img4.jpg');
+}
